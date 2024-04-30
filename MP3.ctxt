@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MP3
+comment0.text=\r\n\ The\ MP3\ class\ represents\ a\ mp3\ object.\ \r\n\ Information\ about\ the\ mp3\ is\ stored\ and\ can\ be\ retrieved.\r\n\ \r\n\ @author\ Andrei\ Ionita\r\n\ @version\ 2.0\r\n
+comment1.params=model\ price\ weight\ size\ memory
+comment1.target=MP3(java.lang.String,\ double,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Initialize\ the\ mp3.\r\n\ @param\ model\ The\ model\ of\ the\ mp3.\r\n\ @param\ price\ The\ price\ of\ the\ mp3.\r\n\ @param\ weight\ The\ weight\ of\ the\ mp3.\r\n\ @param\ size\ The\ size\ of\ the\ mp3.\r\n\ @param\ memory\ The\ available\ memory\ of\ the\ mp3.\r\n
+comment2.params=
+comment2.target=int\ getMemory()
+comment2.text=\r\n\ @return\ The\ remaining\ memory\ for\ this\ mp3.\r\n
+comment3.params=amount
+comment3.target=void\ downloadMusic(int)
+comment3.text=\r\n\ Download\ music\ to\ the\ mp3.\ If\ there\ is\ sufficient\ available\ memory\ on\ the\ \r\n\ MP3\ player,\ decrease\ the\ available\ memory\ by\ that\ amount.\ \r\n\ Otherwise,\ an\ error\ message\ is\ displayed.\r\n\ @param\ amount\ The\ amount\ of\ memory\ to\ be\ entered.\r\n
+comment4.params=amount
+comment4.target=void\ deleteMusic(int)
+comment4.text=\r\n\ Delete\ music\ from\ the\ mp3.\ Increase\ the\ available\ memory\ accordingly.\r\n\ @param\ amount\ The\ amount\ of\ memory\ to\ be\ entered.\r\n
+comment5.params=
+comment5.target=void\ display()
+comment5.text=\r\n\ Print\ details\ about\ this\ mp3.\r\n
+numComments=6
